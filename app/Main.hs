@@ -47,7 +47,6 @@ drawUI appColLen titleColLen l = [ui]
                               , str " "
                               , C.hCenter $ str "Press n/p to move."
                               , C.hCenter $ str "Press Enter to select."
-                              , C.hCenter $ str "Press C-g to exit."
                               ]
 
 appEvent :: T.BrickEvent () e -> T.EventM () (L.List () Line) ()
